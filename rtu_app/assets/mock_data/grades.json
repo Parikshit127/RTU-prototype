@@ -1,0 +1,61 @@
+{
+  "semesters": [
+    {
+      "id": "sem-5",
+      "name": "Fall 2025",
+      "semesterNumber": 5,
+      "gpa": 7.8,
+      "totalCredits": 30,
+      "courses": [
+        {"courseName": "Data Structures and Algorithms", "courseCode": "DatZ3001", "credits": 6, "grade": 8, "gradeLabel": "Very Good", "professor": "Prof. Andris Liepiņš"},
+        {"courseName": "Operating Systems", "courseCode": "DatZ4020", "credits": 4, "grade": 7, "gradeLabel": "Good", "professor": "Prof. Kārlis Podnieks"},
+        {"courseName": "Web Technologies", "courseCode": "DatZ3045", "credits": 6, "grade": 9, "gradeLabel": "Excellent", "professor": "Doc. Inga Straupe"},
+        {"courseName": "Discrete Mathematics", "courseCode": "MatZ2001", "credits": 4, "grade": 7, "gradeLabel": "Good", "professor": "Prof. Valdis Segliņš"},
+        {"courseName": "Software Engineering", "courseCode": "DatZ4015", "credits": 6, "grade": 8, "gradeLabel": "Very Good", "professor": "Prof. Dr. Jānis Grabis"},
+        {"courseName": "Latvian Language B2", "courseCode": "ValZ1002", "credits": 2, "grade": 8, "gradeLabel": "Very Good", "professor": "Mg. Līga Vītoliņa"},
+        {"courseName": "Physical Education", "courseCode": "SpoZ1001", "credits": 2, "grade": "P", "gradeLabel": "Pass", "professor": "Mg. Aigars Rudzītis"}
+      ]
+    },
+    {
+      "id": "sem-4",
+      "name": "Spring 2025",
+      "semesterNumber": 4,
+      "gpa": 7.5,
+      "totalCredits": 30,
+      "courses": [
+        {"courseName": "Object-Oriented Programming", "courseCode": "DatZ2010", "credits": 6, "grade": 8, "gradeLabel": "Very Good", "professor": "Prof. Edgars Celms"},
+        {"courseName": "Database Systems", "courseCode": "DatZ3010", "credits": 6, "grade": 7, "gradeLabel": "Good", "professor": "Doc. Laila Niedrīte"},
+        {"courseName": "Computer Networks", "courseCode": "DatZ3020", "credits": 4, "grade": 6, "gradeLabel": "Almost Good", "professor": "Prof. Guntis Bārzdiņš"},
+        {"courseName": "Linear Algebra", "courseCode": "MatZ1003", "credits": 4, "grade": 8, "gradeLabel": "Very Good", "professor": "Prof. Aivars Bērziņš"},
+        {"courseName": "Probability and Statistics", "courseCode": "MatZ2010", "credits": 4, "grade": 7, "gradeLabel": "Good", "professor": "Doc. Ilona Kopeika"},
+        {"courseName": "Technical English C1", "courseCode": "ValZ2001", "credits": 4, "grade": 9, "gradeLabel": "Excellent", "professor": "Mg. Sandra Kalnāja"},
+        {"courseName": "Physical Education", "courseCode": "SpoZ1001", "credits": 2, "grade": "P", "gradeLabel": "Pass", "professor": "Mg. Aigars Rudzītis"}
+      ]
+    },
+    {
+      "id": "sem-3",
+      "name": "Fall 2024",
+      "semesterNumber": 3,
+      "gpa": 8.0,
+      "totalCredits": 30,
+      "courses": [
+        {"courseName": "Introduction to Algorithms", "courseCode": "DatZ2001", "credits": 6, "grade": 9, "gradeLabel": "Excellent", "professor": "Prof. Andris Ambainis"},
+        {"courseName": "Computer Architecture", "courseCode": "DatZ2020", "credits": 4, "grade": 7, "gradeLabel": "Good", "professor": "Doc. Pēteris Ručevskis"},
+        {"courseName": "Calculus III", "courseCode": "MatZ1005", "credits": 6, "grade": 8, "gradeLabel": "Very Good", "professor": "Prof. Ilmārs Kangro"},
+        {"courseName": "Digital Logic", "courseCode": "DatZ2030", "credits": 4, "grade": 8, "gradeLabel": "Very Good", "professor": "Doc. Artūrs Grīnbergs"},
+        {"courseName": "Systems Programming", "courseCode": "DatZ2040", "credits": 6, "grade": 8, "gradeLabel": "Very Good", "professor": "Mg. Viktors Zagorskis"},
+        {"courseName": "Philosophy of Science", "courseCode": "HumZ1010", "credits": 2, "grade": 9, "gradeLabel": "Excellent", "professor": "Prof. Anna Meženiece"},
+        {"courseName": "Physical Education", "courseCode": "SpoZ1001", "credits": 2, "grade": "P", "gradeLabel": "Pass", "professor": "Mg. Aigars Rudzītis"}
+      ]
+    }
+  ],
+  "overallGpa": 7.8,
+  "totalCreditsEarned": 120,
+  "gpaHistory": [
+    {"semester": 1, "gpa": 7.2},
+    {"semester": 2, "gpa": 7.5},
+    {"semester": 3, "gpa": 8.0},
+    {"semester": 4, "gpa": 7.5},
+    {"semester": 5, "gpa": 7.8}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "RTU-2024-0712",
+  "firstName": "Jānis",
+  "lastName": "Bērziņš",
+  "email": "janis.berzins@edu.rtu.lv",
+  "studentId": "201RDB045",
+  "faculty": "Faculty of Computer Science, Information Technology and Energy",
+  "program": "Computer Science",
+  "semester": 5,
+  "yearOfStudy": 3,
+  "enrollmentYear": 2023,
+  "gpa": 7.8,
+  "totalCredits": 120,
+  "requiredCredits": 240,
+  "profileImageUrl": null,
+  "phone": "+371 20123456",
+  "language": "en",
+  "dormitory": "Ķīpsala Student Dormitory",
+  "advisorName": "Prof. Dr. Māris Kalniņš",
+  "advisorEmail": "maris.kalnins@rtu.lv"
+}

@@ -1,0 +1,95 @@
+{
+  "events": [
+    {
+      "id": "evt-001",
+      "title": "RTU Open Day 2026",
+      "description": "Explore RTU faculties, meet professors, and learn about study programs. Open to prospective students and their families.",
+      "category": "Academic",
+      "date": "2026-03-28",
+      "startTime": "10:00",
+      "endTime": "16:00",
+      "location": "RTU Main Building, Kaļķu iela 1",
+      "organizer": "RTU Student Affairs",
+      "isBookmarked": false,
+      "imageUrl": null
+    },
+    {
+      "id": "evt-002",
+      "title": "Spring Career Fair",
+      "description": "Meet top employers from the Baltic region. Over 50 companies including Accenture, Tietoevry, and Evolution offering internships and graduate positions.",
+      "category": "Career",
+      "date": "2026-04-03",
+      "startTime": "11:00",
+      "endTime": "17:00",
+      "location": "Ķīpsala Student House",
+      "organizer": "RTU Career Center",
+      "isBookmarked": true,
+      "imageUrl": null
+    },
+    {
+      "id": "evt-003",
+      "title": "Hackathon: Green Energy Solutions",
+      "description": "48-hour hackathon focused on sustainable energy. Form teams, build prototypes, and win prizes. Sponsored by Latvenergo.",
+      "category": "Academic",
+      "date": "2026-04-10",
+      "startTime": "18:00",
+      "endTime": "18:00",
+      "location": "ĶII Innovation Hub",
+      "organizer": "RTU Developer Club",
+      "isBookmarked": true,
+      "imageUrl": null
+    },
+    {
+      "id": "evt-004",
+      "title": "Student Council Elections",
+      "description": "Vote for your faculty representatives in the RTU Student Council. Every vote counts!",
+      "category": "Student Council",
+      "date": "2026-04-15",
+      "startTime": "09:00",
+      "endTime": "18:00",
+      "location": "All RTU Buildings",
+      "organizer": "RTU Student Parliament",
+      "isBookmarked": false,
+      "imageUrl": null
+    },
+    {
+      "id": "evt-005",
+      "title": "Spring Sports Festival",
+      "description": "Annual inter-faculty sports competition. Basketball, volleyball, football, and athletics. Come cheer for your faculty!",
+      "category": "Sports",
+      "date": "2026-04-20",
+      "startTime": "10:00",
+      "endTime": "18:00",
+      "location": "RTU Sports Center, Ķīpsala",
+      "organizer": "RTU Sports Department",
+      "isBookmarked": false,
+      "imageUrl": null
+    },
+    {
+      "id": "evt-006",
+      "title": "Guest Lecture: AI in Engineering",
+      "description": "Distinguished lecture by Prof. Dr. Michael Chen from MIT on applications of artificial intelligence in modern engineering practices.",
+      "category": "Academic",
+      "date": "2026-03-25",
+      "startTime": "14:00",
+      "endTime": "16:00",
+      "location": "ĶI-202 Auditorium",
+      "organizer": "Faculty of Computer Science",
+      "isBookmarked": true,
+      "imageUrl": null
+    },
+    {
+      "id": "evt-007",
+      "title": "RTU Cultural Night",
+      "description": "Celebrate the cultural diversity of RTU with performances, food, and music from students representing 50+ countries.",
+      "category": "Cultural",
+      "date": "2026-04-25",
+      "startTime": "18:00",
+      "endTime": "23:00",
+      "location": "RTU Great Hall, Kaļķu iela 1",
+      "organizer": "RTU International Office",
+      "isBookmarked": false,
+      "imageUrl": null
+    }
+  ]
+}

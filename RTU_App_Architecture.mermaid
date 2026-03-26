@@ -1,0 +1,92 @@
+graph TB
+    subgraph "RTU Mobile App - Architecture Overview"
+        subgraph "Presentation Layer"
+            UI["Flutter UI Screens"]
+            WIDGETS["Shared Widget Library<br/>RTUCard | RTUButton | RTUTextField"]
+            THEME["RTU Theme System<br/>Colors | Typography | Spacing"]
+        end
+
+        subgraph "State Management"
+            RIVERPOD["Riverpod Providers"]
+            NOTIFIERS["State Notifiers"]
+        end
+
+        subgraph "Domain Layer"
+            ENTITIES["Entities<br/>Student | Course | Grade | Event"]
+            REPOS_INTERFACE["Repository Interfaces<br/>(Abstract Classes)"]
+            USECASES["Use Cases / Business Logic"]
+        end
+
+        subgraph "Data Layer"
+            MOCK_REPO["Mock Repositories<br/>(Current - JSON Data)"]
+            API_REPO["API Repositories<br/>(Post-Contract - ORTUS)"]
+            LOCAL_DB["Local Storage<br/>Hive / Isar"]
+        end
+
+        subgraph "Feature Modules"
+            AUTH["Auth"]
+            SCHEDULE["Schedule"]
+            GRADES["Grades"]
+            ELEARN["E-Learning"]
+            EVENTS["Events"]
+            FEES["Fees"]
+            ADMIN["Admin Services"]
+            LIBRARY["Library"]
+            MAP["Campus Map"]
+            NOTIF["Notifications"]
+            PROFILE["Profile"]
+        end
+
+        subgraph "Core Services"
+            NETWORK["Network Layer<br/>Dio HTTP Client"]
+            NAV["Navigation<br/>GoRouter"]
+            L10N["Localization<br/>EN | LV"]
+            CACHE["Caching Layer"]
+        end
+    end
+
+    subgraph "External Systems (Post-Contract)"
+        ORTUS["ORTUS Portal API"]
+        MOODLE["Moodle LMS"]
+        FIREBASE["Firebase<br/>Push Notifications"]
+    end
+
+    UI --> RIVERPOD
+    UI --> WIDGETS
+    UI --> THEME
+    RIVERPOD --> NOTIFIERS
+    NOTIFIERS --> USECASES
+    USECASES --> REPOS_INTERFACE
+    REPOS_INTERFACE --> MOCK_REPO
+    REPOS_INTERFACE -.-> API_REPO
+    MOCK_REPO --> LOCAL_DB
+    API_REPO -.-> NETWORK
+    NETWORK -.-> ORTUS
+    NETWORK -.-> MOODLE
+    NETWORK -.-> FIREBASE
+
+    AUTH --> REPOS_INTERFACE
+    SCHEDULE --> REPOS_INTERFACE
+    GRADES --> REPOS_INTERFACE
+    ELEARN --> REPOS_INTERFACE
+    EVENTS --> REPOS_INTERFACE
+    FEES --> REPOS_INTERFACE
+
+    NAV --> UI
+    L10N --> UI
+    CACHE --> LOCAL_DB
+
+    style UI fill:#005C3A,color:#fff
+    style WIDGETS fill:#005C3A,color:#fff
+    style THEME fill:#005C3A,color:#fff
+    style RIVERPOD fill:#003D26,color:#fff
+    style NOTIFIERS fill:#003D26,color:#fff
+    style ENTITIES fill:#2E7D32,color:#fff
+    style REPOS_INTERFACE fill:#2E7D32,color:#fff
+    style USECASES fill:#2E7D32,color:#fff
+    style MOCK_REPO fill:#1B5E20,color:#fff
+    style API_REPO fill:#1B5E20,color:#fff,stroke-dasharray: 5 5
+    style LOCAL_DB fill:#1B5E20,color:#fff
+    style ORTUS fill:#E8F5E9,color:#1A1A2E
+    style MOODLE fill:#E8F5E9,color:#1A1A2E
+    style FIREBASE fill:#E8F5E9,color:#1A1A2E
